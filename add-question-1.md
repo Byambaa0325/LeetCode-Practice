@@ -1,4 +1,4 @@
-You wake up at the `N` th floor of the mysterious building. You find the elevator in an attempt to get out of the building. However, the elevator has a warning saying it was programmed incorrectly, and it can only be used in following way:
+You wake up at the `Nth` floor of the mysterious building. You find the elevator in an attempt to get out of the building. However, the elevator has a warning saying it was programmed incorrectly, and it can only be used in following way:
 
 - This elevator only works on floors with an even number.
 - This elevator only goes to floors with the half or the double of its floor's number.
@@ -14,8 +14,8 @@ Given `N`, the number of the floor you wake up, return the minimum number of mov
 **Example 1:**
 
 ```
-Input: Given `N = 23`
-Output: The minimum number of moves required to go down to floor 1 is `6`
+Input: Given N = 23
+Output: The minimum number of moves required to go down to floor 1 is 6
 Path:
 23 -> 24, using the stairs go up one floor
 24 -> 12, using the elevator
@@ -28,8 +28,8 @@ Path:
 **Example 2:**
 
 ```
-Input: Given `N = 17`
-Output: The minimum number of moves required to go down to floor 1 is `5`
+Input: Given N = 17
+Output: The minimum number of moves required to go down to floor 1 is 5
 Path:
 17 -> 16, using the stairs go up down floor
 16 -> 8, using the elevator
