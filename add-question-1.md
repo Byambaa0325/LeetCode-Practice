@@ -37,3 +37,5 @@ Path:
 4 -> 2, using the elevator
 2 -> 1, using the stairs go down one floor
 ```
+
+[solution](add-question-1-solution)
