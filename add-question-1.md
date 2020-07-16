@@ -4,9 +4,9 @@ You wake up at the `Nth` floor of the mysterious building. You find the elevato
 - This elevator only goes to floors with the half or the double of its floor's number.
 - In case you are unable to use the elevator, use the stairs.
 
-Your goal is to get to floor number `1`. Note the mysterious building has floors numbered from 1 to 10^39.
+Your goal is to get to floor number 1. Note the mysterious building has floors numbered from 1 to 10^39.
 
-Given `N`, the number of the floor you wake up, return the minimum number of moves required to get down to floor `1`. A move is defined by:
+Given `N`, the number of the floor you wake up, return the minimum number of moves required to get down to floor 1. A move is defined by:
 
 - Using the elevator once. For example, going from floor 8 to 2 using elevator is counted as 2 moves as the elevator is used in a way `8 -> 4 -> 2`.
 - Taking the stairs to go up or down one floor. For example, going from floor 8 to 2 using stairs is counted as 6 moves as `8 -> 7 -> 6 -> 5 -> 4 -> 3 -> 2`.
